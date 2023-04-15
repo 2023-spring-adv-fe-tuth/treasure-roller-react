@@ -4,8 +4,6 @@ import { Button, Card } from 'react-bootstrap';
 
 const HomeScreen = () => (
   <>
-    <h1>Show Me</h1>
-    <h2>Works?</h2>
     <Button variant="success">
       this button appears
     </Button>
@@ -23,6 +21,7 @@ const HomeScreen = () => (
 function App() {
   return (
     <div className="App">
+      <h1>Welcome to the Treasure Roller</h1>
       <HomeScreen />
     </div>
   );
