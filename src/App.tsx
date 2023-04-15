@@ -1,12 +1,22 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button, Card } from 'react-bootstrap';
 
 const HomeScreen = () => (
   <>
     <h1>Show Me</h1>
     <h2>Works?</h2>
-    <button className="btn">
+    <Button variant="success">
       this button appears
-    </button>
+    </Button>
+    <Card>
+      <Card.Header>
+        Leaderboard
+      </Card.Header>
+      <Card.Body>
+        This stuff
+      </Card.Body>
+    </Card>
   </>
 );
 
